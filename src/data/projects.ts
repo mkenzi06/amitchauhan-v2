@@ -5,121 +5,96 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "Destivoyage",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Bootstrap", "JQuery", "Ajax"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/desti.webp",
+      DARK: "/images/projects/desti.webp",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "Tous sport individuels",
     href: "/projects",
     tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
+      "Java",
+      "Mysql",
+      "Hibernate",
+      "Java Swing",
     ],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/Ca_pdi.webp",
+      DARK: "/images/projects/Ca_pdi.webp",
     },
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "Football Stats",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Java", "JEE", "JAX-RS", "JAX-WS", "Mysql", "Java FX"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/ws.webp",
+      DARK: "/images/projects/ws.webp",
     },
   },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
+    name: "Destivoyage",
+    favicon: "/images/projects/logos/favicon.ico",
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/desti.webp",
+      "/images/projects/desti.webp",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "plateforme de voyage novatrice, où l’exploration est sans engagement et la découverte sans contraintes. Notre site propose trois catégories distinctes – Vol, Hôtel et Recommandations de Destinations – ainsi qu’une Page Profil personnalisée pour rendre votre expérience de voyage mémorable.",
+    sourceCodeHref: "https://github.com/mkenzi06/DestiVoyage",
+    liveWebsiteHref: "https://destivoyage.alwaysdata.net/",
   },
   {
-    name: "Kanban app",
+    name: "Tous sport individuels",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/Ca_pdi.webp",
+      "/images/projects/Ca_pdi.webp",
+      "/images/projects/Ca_pdi.webp",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "Cette application permettra aux utilisateurs de s'inscrire, de choisir jusqu'à 3-4 sports parmi une liste prédéfinie, et de saisir, sauvegarder et modifier leurs données sportives. Les données ainsi enregistrées seront utilisées par l'application pour comparer les performances de l’utilisateur avec ses amis, à l’aide de graphiques spécifiques à chaque sport",
+    sourceCodeHref: "https://github.com/mkenzi06/PDI-SPORT",
+    
   },
   {
-    name: "Many Games",
-    favicon: "/images/projects/logos/manygames.ico",
+    name: "Football Stats",
+    favicon: "/images/projects/logos/foot.ico",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/ws.webp",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "Ce projet vise à fournir plusieurs fonctionnalités permettant aux utilisateurs de créer et de gérer des équipes de football, ainsi que d'ajouter, de supprimer et de mettre à jour des joueurs au sein de ces équipes. En utilisant les services fournis, les utilisateurs peuvent interagir avec l'API externe (footballapi) pour récupérer les statistiques des joueurs, les équipes de différentes ligues et aussi les predictions de matchs de premier league (championnat anglais).",
+    sourceCodeHref: "https://github.com/mkenzi06/projet_ws",
   },
   {
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/Capture_portfolio.webp",
+     
     ],
     description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
-    liveWebsiteHref: siteMetadata.siteUrl,
+      "Mon portfolio en utilisant next , tailwind et typescript",
+    sourceCodeHref: "",
   },
   {
-    name: "Covid Tracker",
+    name: "Communication en morse entre 2 microcontrolleurs",
     favicon: "/images/projects/logos/covidtracker.ico",
     imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
+      "/images/projects/code_morse.webp",
     ],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
-  },
-  {
-    name: "Stock predictor",
-    favicon: "/images/projects/logos/stockpredictor.ico",
-    imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
-    ],
-    description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Communication UART entre 2 microcontroleurs en utilsant un buzzer et une led pour l'envoie et la reception des messages en morse avec microphone et Recepteur infrarouge",
+    sourceCodeHref: "https://github.com/mkenzi06/Projet_IntroMicro",
   },
 ];

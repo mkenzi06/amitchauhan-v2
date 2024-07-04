@@ -6,13 +6,11 @@ export const sendMail = async function (
   subject: string,
   message: string,
 ): Promise<{ status: number; message: string }> {
-  const user = process.env.NODEMAILER_USER;
-  const pass = process.env.NODEMAILER_PASS;
+  const user = "kenzimebarki2@gmail.com";
+  const pass = "logg crwv oifq nyaw";
 
-  if (!user && !pass) {
-    return new Promise((resolve) =>
-      resolve({ status: 500, message: "Internal server error" }),
-    );
+  if (!user || !pass) {
+    return { status: 500, message: "Internal server error" };
   }
 
   const transporter = createTransport({
@@ -24,19 +22,17 @@ export const sendMail = async function (
   });
 
   const mailOptions = {
-    from: process.env.NODEMAILER_USER,
-    to: process.env.NODEMAILER_USER,
-    subject: "Portfolio: [" + subject + " ]",
+    from: email === "SELF" ? user : email,
+    to: user,
+    subject: `Portfolio: [${subject}]`,
     text: `${name}: <${email}>\n${message}`,
   };
 
-  return new Promise((resolve) => {
-    transporter.sendMail(mailOptions, (error) => {
-      if (error) {
-        resolve({ status: 500, message: "Failed to send mail" });
-      } else {
-        resolve({ status: 200, message: "Mail send successfully" });
-      }
-    });
-  });
+  try {
+    await transporter.sendMail(mailOptions);
+    return { status: 200, message: "Mail sent successfully" };
+  } catch (error) {
+    console.error("Failed to send mail:", error);
+    return { status: 500, message: "Failed to send mail" };
+  }
 };

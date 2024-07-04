@@ -10,19 +10,16 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Amit Chauhan | React and Frontend Developer"
-        description="Learn more about Amit Chauhan, a dedicated React and Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About me | Developpeur full stack"
+        description=""
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Amit Chauhan - React and Frontend Developer",
+          title: "About me | Developpeur full stack",
           description:
-            "Dive into the story of Amit Chauhan, a React and Frontend Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Plongez dans le monde du développement logiciel/web de MEBARKI Kenzi. Découvrez un développeur full-stack, présentant des projets de pointe et un engagement à créer des interfaces utilisateur exceptionnelles.",
           images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
-            },
+          
           ],
           siteName: siteMetadata.siteName,
           type: "website",
@@ -40,7 +37,7 @@ export default function About() {
       />
       <AboutHero />
       <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />
-      <ExperienceShowcaseList title="Education" details={EDUCATION} />
+      <ExperienceShowcaseList title="Formations" details={EDUCATION} />
     </>
   );
 }

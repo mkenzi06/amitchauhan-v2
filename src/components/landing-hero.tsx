@@ -39,18 +39,19 @@ export default function LandingHero() {
           <AnimatePresence>
             <FadeUp key="title-main" duration={0.6}>
               <h1 className="bg-accent bg-clip-text py-2 text-5xl font-bold text-transparent sm:text-6xl md:text-7xl xl:text-8xl">
-                Amit Chauhan
+              MEBARKI Kenzi
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Frontend and React.js developer
+                Developpeur full stack
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
-                <span className="text-xl text-accent sm:text-3xl">Hi</span>,
-                I&apos;m
-                <span className="text-accent"> Amit Chauhan</span> , I turn
-                vision into reality with code and design.
+                <span className="text-xl text-accent sm:text-3xl">Hi</span>
+                <span> , Je suis</span>
+                
+                <span className="text-accent"> Kenzi MEBARKI</span> , Je crée des expériences digitales alliant innovation et fonctionnalité.
+
               </div>
             </FadeUp>
           </AnimatePresence>

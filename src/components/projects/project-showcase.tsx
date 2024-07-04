@@ -93,7 +93,7 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
               className="flex flex-col gap-1"
             >
               <div className="flex gap-2">
-                <span className="text-3xl font-semibold text-accent transition-colors duration-300 sm:text-4xl md:text-5xl lg:hidden">
+                <span className="text-xl font-semibold text-accent transition-colors duration-300 sm:text-xl md:text-xl lg:hidden">
                   {proj.index + 1}.
                 </span>
                 <span

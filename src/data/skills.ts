@@ -19,7 +19,10 @@ import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
-
+import dartSvg from "@/public/icons/dartlang-icon.svg"
+import cppSvg from "@/public/icons/c.svg"
+import java from "@/public/icons/java-icon.svg"
+import phpsvg from "@/public/icons/php-icon.svg"
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
 import SolidjsSvg from "@/public/icons/solidjs.svg";
@@ -27,6 +30,15 @@ import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
+import hibernatesvg from "@/public/icons/hibernate-ar21.svg"
+import VuejsSvg from "@/public/icons/vuejs-icon.svg";
+import NuxtjsSvg from "@/public/icons/nuxtjs-ar21.svg";
+import PytorchSvg from "@/public/icons/pytorch-icon.svg";
+import BootstrapSvg from "@/public/icons/getbootstrap-ar21.svg";
+import FlutterSvg from "@/public/icons/flutterio-ar21.svg";
+import djangoSvg from "@/public/icons/djangoproject-ar21.svg"
+import laravelSvg from "@/public/icons/laravel-ar21.svg"
+import symfonySvg from "@/public/icons/symfony-icon.svg"
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -34,6 +46,8 @@ import NodejsSvg from "@/public/icons/nodejs.svg";
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
+import mysqlsvg from "@/public/icons/mysql-ar21.svg"
+import sqlite from "@/public/icons/sqlite-icon.svg"
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
@@ -53,10 +67,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "CSS",
         icon: CsssSvg,
       },
-      {
-        name: "SASS",
-        icon: SassSvg,
-      },
+      
       {
         name: "Javascript",
         icon: JavascriptSvg,
@@ -68,6 +79,24 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Python",
         icon: PythonSvg,
+      },
+      {
+        name: "Java",
+        icon: java,
+      },
+  
+      {
+        name: "Dart",
+        icon: dartSvg,
+      },
+   
+      {
+        name: "C++",
+        icon: cppSvg,
+      },
+      {
+        name: "PHP",
+        icon: phpsvg,
       },
     ],
   },
@@ -83,36 +112,40 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNextdotjs,
       },
       {
-        name: "Solidjs",
-        icon: SolidjsSvg,
+        name: "Vuejs",
+        icon: VuejsSvg,
       },
       {
-        name: "React Router Dom",
-        icon: ReactRouterDomIcon,
+        name: "Nuxtjs",
+        icon: NuxtjsSvg,
       },
       {
-        name: "Redux",
-        icon: ReduxSvg,
+        name: "Hibernate",
+        icon: hibernatesvg,
       },
       {
         name: "Tailwindcss",
         icon: TailwindcssSvg,
       },
       {
-        name: "MUI",
-        icon: MuiSvg,
+        name: "Pytorch",
+        icon: PytorchSvg,
       },
       {
-        name: "Framer motion",
-        icon: FramerMotionIcon,
+        name: "Bootstrap",
+        icon: BootstrapSvg,
       },
       {
-        name: "Vite",
-        icon: ViteSvg,
+        name: "Flutter",
+        icon: FlutterSvg,
       },
       {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
+        name: "Laravel",
+        icon:  laravelSvg,
+      },
+      {
+        name: "Symfony",
+        icon: symfonySvg,
       },
     ],
   },
@@ -127,14 +160,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Express",
         icon: SiExpress,
       },
-      {
-        name: "Socket.io",
-        icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
-      },
+      
     ],
   },
   {
@@ -149,8 +175,12 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: PostgressSvg,
       },
       {
-        name: "Prisma",
-        icon: SiPrisma,
+        name: "Mysql",
+        icon: mysqlsvg,
+      },
+      {
+        name: "Sqlite",
+        icon: sqlite,
       },
     ],
   },
