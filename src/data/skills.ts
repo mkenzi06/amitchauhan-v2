@@ -15,7 +15,7 @@ import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 // Languages
 import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
-import SassSvg from "@/public/icons/sass.svg";
+
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
@@ -25,18 +25,16 @@ import java from "@/public/icons/java-icon.svg"
 import phpsvg from "@/public/icons/php-icon.svg"
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
-import ReduxSvg from "@/public/icons/redux.svg";
+
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
-import MuiSvg from "@/public/icons/mui.svg";
-import ViteSvg from "@/public/icons/vite.svg";
+
 import hibernatesvg from "@/public/icons/hibernate-ar21.svg"
 import VuejsSvg from "@/public/icons/vuejs-icon.svg";
 import NuxtjsSvg from "@/public/icons/nuxtjs-ar21.svg";
 import PytorchSvg from "@/public/icons/pytorch-icon.svg";
 import BootstrapSvg from "@/public/icons/getbootstrap-ar21.svg";
 import FlutterSvg from "@/public/icons/flutterio-ar21.svg";
-import djangoSvg from "@/public/icons/djangoproject-ar21.svg"
+
 import laravelSvg from "@/public/icons/laravel-ar21.svg"
 import symfonySvg from "@/public/icons/symfony-icon.svg"
 

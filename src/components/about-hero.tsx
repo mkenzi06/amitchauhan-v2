@@ -4,7 +4,6 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
 
 export default function AboutHero() {
   return (
